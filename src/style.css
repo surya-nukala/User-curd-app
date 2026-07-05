@@ -1,0 +1,110 @@
+.add-user{
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 2px 20px gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap:0.8em;
+}
+.add-user h2{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.add-user input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    outline: none;
+}
+.add-user input:focus{
+    border-color: black;
+}
+.add-user button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    background: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 550;
+    color:white;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+.add-user button:active{
+    scale: 0.9;
+}
+.add-user .success{
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 520;
+    color:green;
+}
+.add-user .error{
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 520;
+    color:red;
+}
+.table-container{
+    width: 69%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+.table-container h2{
+    margin-bottom: 20px;
+}
+.table-container table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.table-container table thead{
+    background: black;
+}
+.table-container table th{
+    font-size: 14px;
+    padding: 10px;
+    color:white;
+}
+.table-container table td{
+    text-align: center;
+    padding: 6px;
+    font-size: 13px;
+}
+.table-container table tbody tr{
+    border-bottom: 1px solid black;
+}
+.table-container table .btn-delete{
+    padding: 5px 10px;
+    background: red;
+    border: 1px solid red;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+    font-weight: 520;
+}
+.table-container table .btn-delete:active{
+    scale: 0.9;
+}
+.table-container table .btn-update{
+    padding: 5px 10px;
+    background: green;
+    border: 1px solid green;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+    font-weight: 520;
+}
+.table-container table .btn-update:active{
+    scale: 0.9;
+}
